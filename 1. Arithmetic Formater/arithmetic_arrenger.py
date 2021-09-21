@@ -1,3 +1,6 @@
+"""
+Author: Christian Gutierrez
+"""
 def errorCases( errorCase):
   if errorCase == 1:#Too many problems, max 5
     errorMessage = 'Error: Too many problems.'
