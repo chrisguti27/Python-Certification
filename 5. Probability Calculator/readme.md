@@ -5,7 +5,7 @@ Suppose there is a hat containing 5 blue balls, 4 red balls, and 2 green balls. 
 For this project, you will write a program to determine the approximate probability of drawing certain balls randomly from a hat. 
 
 First, create a `Hat` class in `prob_calculator.py`. The class should take a variable number of arguments that specify the number of balls of each color that are in the hat. For example, a class object could be created in any of these ways:
-```
+```py
 hat1 = Hat(yellow=3, blue=2, green=6)
 hat2 = Hat(red=5, orange=4)
 hat3 = Hat(red=5, orange=4, black=1, blue=0, pink=2, striped=9)
@@ -27,7 +27,7 @@ For example, let's say that you want to determine the probability of getting at 
 
 Here is how you would call the `experiment` function based on the example above with 2000 experiments:
 
-```
+```py
 hat = Hat(black=6, red=4, green=3)
 probability = experiment(hat=hat, 
                   expected_balls={"red":2,"green":1},
