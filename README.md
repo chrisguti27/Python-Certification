@@ -4,4 +4,3 @@ Disclaimer: All project statements are taken from FreeCodeCamp web site regardin
 
 Link: https://www.freecodecamp.org/learn/scientific-computing-with-python/#scientific-computing-with-python-projects
 
-## 1. Arithmetic Formater
